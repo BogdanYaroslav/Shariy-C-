@@ -1,0 +1,19 @@
+﻿Build started 06.10.2020 15:48:36.
+     1>Project "c:\Users\zet\documents\visual studio 2010\Projects\Laba 1.2\Laba 1.2\Laba 1.2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Laba 1.2.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 1.cpp
+         1.cpp
+     1>c:\users\zet\documents\visual studio 2010\projects\laba 1.2\laba 1.2\1.cpp(41): error C2668: 'sqrt' : ambiguous call to overloaded function
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(589): could be 'long double sqrt(long double)'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(541): or       'float sqrt(float)'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(127): or       'double sqrt(double)'
+                 while trying to match the argument list '(size_t)'
+     1>c:\users\zet\documents\visual studio 2010\projects\laba 1.2\laba 1.2\1.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\zet\documents\visual studio 2010\projects\laba 1.2\laba 1.2\1.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+     1>Done Building Project "c:\Users\zet\documents\visual studio 2010\Projects\Laba 1.2\Laba 1.2\Laba 1.2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.43
