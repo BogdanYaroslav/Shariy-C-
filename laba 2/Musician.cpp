@@ -30,7 +30,7 @@ Musician::Musician(const string& name, const string& surname, const Tools tool, 
 }
 
 Musician::~Musician() {
-	cout << "Музыкант " << name_ << " " << surname_ << " уволен к чертям" << endl << endl;
+	cout << "Музыкант " << name_ << " " << surname_ << " уволен " << endl << endl;
 }
 
 
@@ -193,7 +193,14 @@ void Musician::Sort(Musician* arr, int len) {
 		}
 	}
 }
-
+int main()// дополнение к заданию
+{
+    Point point(3.0, 4.0, 5.0);
+ 
+    std::cout << "My point is: ";
+    point.print();
+    std::cout << " in Cartesian space.\n";
+}
 
 
 
